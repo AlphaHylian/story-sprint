@@ -1,0 +1,22 @@
+{
+  "name": "story-sprint",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Timed practice tool for IB English creative writing: section drills and full 38-minute stories with built-in and optional AI grading.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "check:bank": "vitest run tests/bank.test.ts"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.3.7",
+    "vitest": "^5.0.3"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0"
+  }
+}
